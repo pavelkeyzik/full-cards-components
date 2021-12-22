@@ -1,0 +1,38 @@
+$button-color: #272829;
+$button-on-color: #fff;
+
+.btn {
+  padding-inline: 16px;
+  padding-block: 12px;
+  background: $button-color;
+  border: 2px solid $button-color;
+  color: $button-on-color;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.813rem;
+  letter-spacing: 0.068rem;
+  border-radius: 4px;
+}
+
+.btn-pill {
+  border-radius: 60px;
+}
+
+.btn-outline {
+  background: none;
+  color: $button-color;
+}
+
+.btn-small {
+  padding-inline: 16px;
+  padding-block: 9px;
+  font-size: 0.688rem;
+  letter-spacing: 0.005rem;
+}
+
+.btn-large {
+  padding-inline: 20px;
+  padding-block: 16px;
+  font-size: 0.938rem;
+  letter-spacing: 0.068rem;
+}
