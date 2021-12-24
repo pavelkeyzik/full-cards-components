@@ -24,7 +24,8 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint:css": "npx stylelint \"**/*.scss\""
   },
   "eslintConfig": {
     "extends": [
@@ -69,6 +70,11 @@
     "@storybook/react": "^6.4.9",
     "husky": "^7.0.4",
     "storybook-dark-mode": "^1.0.8",
+    "stylelint": "^14.2.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-property-sort-order-smacss": "^8.0.0",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "stylelint-prettier": "^2.0.0",
     "webpack": "^5.65.0"
   }
 }
