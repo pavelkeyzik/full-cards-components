@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.card-header {
+  padding: 25px;
+}
+
+.card-image {
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.card-body {
+  padding: 25px;
+  color: #78858f;
+}
