@@ -1,0 +1,29 @@
+.media {
+  display: flex;
+  gap: 10px; /* TODO: This rule doesn't work in Safari, so update this in the future */
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.media-title {
+  grid-column: 1fr;
+  margin: 0;
+  padding: 0;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.318rem;
+}
+
+.media-subtitle {
+  margin: 0;
+  padding: 0;
+  font-size: 0.938rem;
+  font-weight: 400;
+  letter-spacing: 0.031rem;
+  line-height: 1.594rem;
+}
+
+.media-content {
+  flex-grow: 1;
+}

@@ -7,9 +7,8 @@
 }
 
 .story-grid-row {
-  display: inline-grid;
+  display: grid;
   grid-auto-flow: column;
   grid-gap: 8px;
   align-items: center;
-  justify-content: flex-start;
 }
