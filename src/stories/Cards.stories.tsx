@@ -22,7 +22,7 @@ export function Cards() {
         <div className="card-image">
           <img src="https://picsum.photos/360/184" alt="Something random" />
         </div>
-        <div className="card-body">This is a basic card</div>
+        <div className="card-footer">This is a basic card</div>
       </div>
     </div>
   );
