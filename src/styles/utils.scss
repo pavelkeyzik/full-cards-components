@@ -16,4 +16,6 @@
 .story-grid-no-background {
   display: inline-grid;
   grid-gap: 16px;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: flex-start;
 }

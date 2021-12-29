@@ -17,6 +17,17 @@
   }
 }
 
+.card-body {
+  padding: 25px;
+
+  p {
+    margin: 0;
+    font-size: 1.813rem;
+    font-weight: 700;
+    line-height: 2.375rem;
+  }
+}
+
 .card-footer {
   padding: 25px;
   color: #78858f;
