@@ -37,7 +37,7 @@ export function Cards() {
           </div>
         </div>
         <div className="card-body">
-          <p>Minim dolor in amet nulla laboris</p>
+          <p className="card-body__title">Minim dolor in amet nulla laboris</p>
         </div>
         <div className="card-footer">3 September 2019</div>
       </div>
@@ -73,7 +73,7 @@ export function Cards() {
           </div>
         </div>
         <div className="card-body">
-          <p>Minim dolor in amet nulla laboris</p>
+          <p className="card-body__title">Minim dolor in amet nulla laboris</p>
         </div>
         <div className="card-image">
           <img src="https://picsum.photos/360/184" alt="Something random" />
@@ -97,7 +97,7 @@ export function Cards() {
           <img src="https://picsum.photos/360/184" alt="Something random" />
         </div>
         <div className="card-body">
-          <p>Minim dolor in amet nulla laboris</p>
+          <p className="card-body__title">Minim dolor in amet nulla laboris</p>
         </div>
         <div className="card-footer">23 April 2021</div>
       </div>
@@ -120,9 +120,37 @@ export function Cards() {
           <img src="https://picsum.photos/360/184" alt="Something random" />
         </div>
         <div className="card-body">
-          <p>Minim dolor in amet nulla laboris</p>
+          <p className="card-body__title">Minim dolor in amet nulla laboris</p>
         </div>
         <div className="card-footer">January 07</div>
+      </div>
+      <div className="card">
+        <div className="card-header">
+          <div className="media">
+            <div className="avatar">
+              <img src="https://picsum.photos/100" alt="Avatar" />
+            </div>
+            <div className="media-content">
+              <h2 className="media-title">Robert Fox</h2>
+              <span className="media-subtitle">Web Development</span>
+            </div>
+          </div>
+        </div>
+        <div className="card-body">
+          <p className="card-body__title">Minim dolor in amet nulla laboris</p>
+          <time className="card-body__date">September 23, 2021</time>
+          <p className="card-body__text">
+            Minim dolor in amet nulla laboris enim dolore consequat proident
+            fugiat culpa eiusmod...
+          </p>
+        </div>
+        <div className="card-body">
+          <div className="inline-space-10">
+            <button className="badge bg-pink">React</button>
+            <button className="badge bg-pink">JavaScript</button>
+            <button className="badge bg-pink">Angular</button>
+          </div>
+        </div>
       </div>
     </div>
   );

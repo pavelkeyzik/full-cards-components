@@ -21,11 +21,24 @@
 .card-body {
   padding: 25px;
 
-  p {
+  &__title {
     margin: 0;
     font-size: 1.813rem;
     font-weight: 700;
     line-height: 2.375rem;
+  }
+
+  &__date {
+    color: #838383;
+    font-size: 1.063rem;
+    line-height: 1.5rem;
+  }
+
+  &__text {
+    margin: 10px 0;
+    font-size: 1.063rem;
+    font-weight: 400;
+    line-height: 1.506rem;
   }
 }
 

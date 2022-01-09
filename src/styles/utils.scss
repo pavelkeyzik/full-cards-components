@@ -19,3 +19,13 @@
   grid-template-columns: repeat(3, 1fr);
   align-items: flex-start;
 }
+
+.inline-space-10 {
+  display: inline-grid;
+  grid-auto-flow: column;
+  grid-gap: 10px;
+}
+
+.bg-pink {
+  background-color: #eb3349;
+}
