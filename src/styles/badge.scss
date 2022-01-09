@@ -1,0 +1,24 @@
+$badge-color: #272829;
+$badge-on-color: #fff;
+
+.badge {
+  padding-inline: 15px;
+  padding-block: 5px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  background: $badge-color;
+  color: $badge-on-color;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.063rem;
+}
+
+.badge-pill {
+  border-radius: 70px;
+}
+
+.badge-outline {
+  border-color: $badge-color;
+  background: none;
+  color: $badge-color;
+}
