@@ -1,5 +1,8 @@
 import React from 'react';
 import { ReactComponent as CarbonMenuIcon } from '../assets/icons/carbon-menu.svg';
+import { ReactComponent as HeartIcon } from '../assets/icons/heart.svg';
+import { ReactComponent as ShareIcon } from '../assets/icons/share.svg';
+import { ReactComponent as CommentIcon } from '../assets/icons/comment.svg';
 
 export function Cards() {
   return (
@@ -150,6 +153,17 @@ export function Cards() {
             <button className="badge bg-pink">JavaScript</button>
             <button className="badge bg-pink">Angular</button>
           </div>
+        </div>
+        <div className="card-footer__post-reaction-links">
+          <a href="#like" className="card-footer__post-reaction-link-item">
+            <HeartIcon /> 20k
+          </a>
+          <a href="#share" className="card-footer__post-reaction-link-item">
+            <ShareIcon /> 34
+          </a>
+          <a href="#comment" className="card-footer__post-reaction-link-item">
+            <CommentIcon /> 567
+          </a>
         </div>
       </div>
     </div>

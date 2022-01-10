@@ -20,10 +20,9 @@
   align-items: flex-start;
 }
 
-.inline-space-10 {
-  display: inline-grid;
-  grid-auto-flow: column;
-  grid-gap: 10px;
+.inline-space-10 > * {
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .bg-pink {

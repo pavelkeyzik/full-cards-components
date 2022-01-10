@@ -45,4 +45,20 @@
 .card-footer {
   padding: 25px;
   color: #78858f;
+
+  &__post-reaction-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+  }
+
+  &__post-reaction-link-item {
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.172rem;
+    text-decoration: none;
+  }
 }

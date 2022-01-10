@@ -10,6 +10,8 @@ import { ReactComponent as CarbonMenuIcon } from '../assets/icons/carbon-menu.sv
 import { ReactComponent as MenuLeftAlignIcon } from '../assets/icons/menu-left-align.svg';
 import { ReactComponent as CarbonMenuHorizontalIcon } from '../assets/icons/carbon-menu-horizontal.svg';
 import { ReactComponent as MessageIcon } from '../assets/icons/message.svg';
+import { ReactComponent as ShareIcon } from '../assets/icons/share.svg';
+import { ReactComponent as CommentIcon } from '../assets/icons/comment.svg';
 
 function Icon(props: PropsWithChildren<unknown>) {
   return (
@@ -64,6 +66,14 @@ export function Icons() {
         </Icon>
         <Icon>
           <MessageIcon />
+        </Icon>
+      </div>
+      <div className="story-grid-row">
+        <Icon>
+          <ShareIcon />
+        </Icon>
+        <Icon>
+          <CommentIcon />
         </Icon>
       </div>
     </div>
